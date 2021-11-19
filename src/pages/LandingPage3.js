@@ -1,23 +1,24 @@
 import React, { useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const LandingPage = () => {
-  const history = useHistory();
-
-  const goNextStep = () => {
-    history.push('/LandingPage4');
-  };
-
   return (
     <div className='container'>
-      <div className='text-container'>
-        <div className='text'>구매할 물건을 입력해주세요.</div>
+      <div className='landing__text-container fade-in'>
+        <span className='landing__text'>그림</span>
+        <span className='landing__text-sub'>만 따라하면 </span>
+        <span className='landing__text'>결제</span>
+        <span className='landing__text-sub'>돼요.</span>
       </div>
+      <img
+        className='landing__img fade-in delay-10'
+        src='https://i.ibb.co/6F9Zc34/PERSHO-IMAGE.png'
+      ></img>
 
-      <div className='btn-container-solo'>
-        <div className='btn-main' onClick={() => goNextStep()}>
-          상품 검색하기
-        </div>
+      <div className='landing__btn-container fade-in delay-20'>
+        <Link className='landing__btn' to='/LandingPage4'>
+          다음
+        </Link>
       </div>
     </div>
   );

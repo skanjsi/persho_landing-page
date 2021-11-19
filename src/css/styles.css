@@ -3,6 +3,7 @@
 @import 'InfoTemplate.css';
 @import 'LandingPage.css';
 @import 'news.css';
+@import 'fading.css';
 
 /* Noto Sans KR 100 400 500 700 */
 * {
@@ -35,6 +36,7 @@ body {
   --brown: #8d7152;
   --midbrown: #a48c70;
   --lightbrown: #f7f0e0;
+  --red: #c80000;
 }
 
 /* for react */

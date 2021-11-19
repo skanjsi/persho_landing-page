@@ -14,6 +14,7 @@ const NewsPage = () => {
         paddingTop: '40px',
         backgroundColor: 'white',
         justifyContent: 'flex-start',
+        height: 'auto',
       }}
     >
       <div className='news-header'>
@@ -50,17 +51,15 @@ const NewsPage = () => {
           '찹쌀떡+디저트' 등 세트 구성 상품이 상위에 이름을 올렸다. 새로운 선물
           문화 영향으로 케이크가 전통 선물을 제친 것으로 풀이된다.
         </div>
-        <a style={{ position: 'relative' }} href='/index.html'>
-          <div className='news-ad-text' onClick={() => goNextStep()}>
-            광고
-          </div>
+        <a style={{ position: 'relative' }} onClick={() => goNextStep()}>
+          <div className='news-ad-text'>광고</div>
           <img
             style={{
               width: '100%',
               margin: '5px 0',
               border: '1px solid black',
             }}
-            src='/img/1200*1200_2.jpg'
+            src='https://i.ibb.co/nCGc3kR/1200-1200-2.jpg'
             alt=''
           />
         </a>
