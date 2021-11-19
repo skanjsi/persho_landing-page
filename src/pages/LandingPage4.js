@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 const LandingPage = () => {
   return (
@@ -34,8 +34,15 @@ const LandingPage = () => {
         src='https://i.ibb.co/cQD7sJm/Persho-App-Icon.png'
       ></img>
 
-      <div className='landing__btn-container fade-in delay-15'>
-        <a className='landing__btn' href='http://pf.kakao.com/_Vwrys/chat'>
+      <div
+        className='landing__btn-container fade-in delay-15'
+        style={{ height: '60px' }}
+      >
+        <a
+          className='landing__btn'
+          style={{ borderRadius: '12px' }}
+          href='http://pf.kakao.com/_Vwrys/chat'
+        >
           홈비로 간편 쇼핑하기
         </a>
       </div>

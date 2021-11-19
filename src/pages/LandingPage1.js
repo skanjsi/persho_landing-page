@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 const LandingPage = () => {
@@ -8,14 +8,20 @@ const LandingPage = () => {
         <span className='landing__text'>단순</span>
         <span className='landing__text-sub'>하게 주문하세요.</span>
       </div>
-      <img
-        className='landing__img fade-in delay-10'
-        src='https://i.ibb.co/6F9Zc34/PERSHO-IMAGE.png'
-      ></img>
-      <div className='landing__btn-container fade-in delay-20'>
-        <Link className='landing__btn' to='/LandingPage2'>
-          다음
-        </Link>
+      <div className='jsx-container'>
+        <div className='landing__gif-container fade-in'>
+          <div className='landing__gif-btn'></div>
+          <div className='landing__gif-btn second'></div>
+          <img
+            className='landing__gif'
+            src='https://i.ibb.co/72DCd5g/search.gif'
+          ></img>
+        </div>
+        <div className='landing__btn-container fade-in'>
+          <Link className='landing__btn' to='/LandingPage2'>
+            다음
+          </Link>
+        </div>
       </div>
     </div>
   );

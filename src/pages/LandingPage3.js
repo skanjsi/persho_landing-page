@@ -1,24 +1,28 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 const LandingPage = () => {
   return (
     <div className='container'>
       <div className='landing__text-container fade-in'>
-        <span className='landing__text'>그림</span>
-        <span className='landing__text-sub'>만 따라하면 </span>
-        <span className='landing__text'>결제</span>
-        <span className='landing__text-sub'>돼요.</span>
+        <span className='landing__text-sub'>따라하다보면 </span>
+        <span className='landing__text'>결제 </span>
+        <span className='landing__text-sub'>성공!</span>
       </div>
-      <img
-        className='landing__img fade-in delay-10'
-        src='https://i.ibb.co/6F9Zc34/PERSHO-IMAGE.png'
-      ></img>
-
-      <div className='landing__btn-container fade-in delay-20'>
-        <Link className='landing__btn' to='/LandingPage4'>
-          다음
-        </Link>
+      <div className='jsx-container'>
+        <div className='landing__gif-container fade-in'>
+          <div className='landing__gif-btn'></div>
+          <div className='landing__gif-btn second'></div>
+          <img
+            className='landing__gif'
+            src='https://i.ibb.co/HF9xCH0/pay.gif'
+          ></img>
+        </div>
+        <div className='landing__btn-container fade-in'>
+          <Link className='landing__btn' to='/LandingPage4'>
+            다음
+          </Link>
+        </div>
       </div>
     </div>
   );

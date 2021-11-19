@@ -1,6 +1,6 @@
 .landing__text-container {
   width: 85%;
-  padding-top: 40px;
+  padding-top: 20px;
   line-height: 36px;
   text-align: left;
 }
@@ -26,7 +26,7 @@
 }
 
 .landing__btn {
-  width: 85%;
+  width: 95%;
   height: 50px;
   border-radius: 12px 12px 0 0;
   display: flex;
@@ -50,4 +50,32 @@
 
 .landing__img {
   width: 200px;
+}
+
+.landing__gif-container {
+  position: relative;
+  width: 257px;
+  height: 411px;
+  background: #ffffff;
+  border: 8px solid #010101;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px 30px 0 0;
+  border-bottom: none;
+}
+.landing__gif {
+  width: 241px;
+  height: 403px;
+  border-radius: 22px 22px 0 0;
+}
+.landing__gif-btn {
+  position: absolute;
+  top: 50px;
+  left: -14px;
+  width: 6px;
+  height: 40px;
+  background: #010101;
+}
+.landing__gif-btn.second {
+  top: 100px;
 }
