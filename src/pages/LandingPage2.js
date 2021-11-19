@@ -16,7 +16,7 @@ const LandingPage = () => {
           <div className='landing__gif-btn second'></div>
           <img
             className='landing__gif'
-            src='https://i.ibb.co/kDwZ3Dp/Nov-19-2021-22-37-28.gif'
+            src='https://i.imgur.com/AUyl4vn.gif'
           ></img>
         </div>
         <div className='landing__btn-container fade-in'>

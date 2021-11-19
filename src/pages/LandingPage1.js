@@ -12,10 +12,15 @@ const LandingPage = () => {
         <div className='landing__gif-container fade-in'>
           <div className='landing__gif-btn'></div>
           <div className='landing__gif-btn second'></div>
-          <img
+          <video
+            draggable='false'
+            playsInline
+            autoPlay
+            loop
             className='landing__gif'
-            src='https://i.ibb.co/72DCd5g/search.gif'
-          ></img>
+          >
+            <source type='video/mp4' src='https://i.imgur.com/yFQRVvc.mp4' />
+          </video>
         </div>
         <div className='landing__btn-container fade-in'>
           <Link className='landing__btn' to='/LandingPage2'>
