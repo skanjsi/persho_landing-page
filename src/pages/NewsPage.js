@@ -5,7 +5,7 @@ const NewsPage = () => {
   const history = useHistory();
 
   const goNextStep = () => {
-    history.push('/');
+    history.push('/LandingPage0');
   };
   return (
     <div
