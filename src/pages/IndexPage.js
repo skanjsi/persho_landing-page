@@ -6,6 +6,7 @@ const IndexPage = () => {
     <div className='container'>
       <div className='landing__text-container fade-in'>
         <span className='landing__text-sub'>처음이어도</span>
+        <br />
         <span className='landing__text'> 누구나 </span>
         <span className='landing__text-sub'>할 수 있어요.</span>
       </div>
@@ -15,7 +16,7 @@ const IndexPage = () => {
       ></img>
       <div
         className='landing__text-container fade-in delay-10'
-        style={{ width: '70%', padding: '20px 0 70px 0' }}
+        style={{ padding: '20px 0 70px 0' }}
       >
         <div
           className='landing__text-sub'
@@ -25,7 +26,7 @@ const IndexPage = () => {
         </div>
         <span
           className='landing__text'
-          style={{ fontSize: '42px', lineHeight: '52px' }}
+          style={{ fontSize: '42px', lineHeight: '52px', color: 'var(--red)' }}
         >
           87%{' '}
         </span>

@@ -2,10 +2,10 @@ import React from 'react';
 
 const LandingPage = () => {
   return (
-    <div className='container'>
+    <div className='container' style={{ justifyContent: 'space-between' }}>
       <div
         className='landing__text-container fade-in'
-        style={{ marginTop: '60px' }}
+        style={{ marginTop: '60px', marginBottom: '10px' }}
       >
         <div
           className='landing__text'
@@ -33,7 +33,6 @@ const LandingPage = () => {
         style={{ width: '280px' }}
         src='https://i.ibb.co/cQD7sJm/Persho-App-Icon.png'
       ></img>
-
       <div
         className='landing__btn-container fade-in delay-15'
         style={{ height: '60px' }}
@@ -41,9 +40,9 @@ const LandingPage = () => {
         <a
           className='landing__btn'
           style={{ borderRadius: '12px' }}
-          href='http://pf.kakao.com/_Vwrys/chat'
+          href='https://nzpvdy8ly2u.typeform.com/to/arLUtwIc'
         >
-          홈비로 간편 쇼핑하기
+          간편 쇼핑하기
         </a>
       </div>
     </div>

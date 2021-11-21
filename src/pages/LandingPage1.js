@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ScrollGradient from '../components/atoms/ScrollGradient';
 
 const LandingPage = () => {
   return (
     <div className='container'>
+      <ScrollGradient />
       <div className='landing__text-container fade-in'>
         <span className='landing__text'>단순</span>
         <span className='landing__text-sub'>하게 주문하세요.</span>
