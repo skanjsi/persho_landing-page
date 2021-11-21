@@ -5,6 +5,8 @@ const ScrollGradient = () => {
     <div
       style={{
         width: '100%',
+        minWidth: '300px',
+        maxWidth: '420px',
         height: '80px',
         position: 'fixed',
         bottom: '0%',
